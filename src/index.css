@@ -1,0 +1,23 @@
+.hero-creditCard-container {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 100px;
+}
+
+.view-all-btn:link,
+.view-all-btn:visited {
+  text-decoration: none;
+  color: #038aff;
+  border-bottom: 1px dashed #038aff;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  transition: all 0.3s;
+  align-self: flex-start;
+}
+
+.view-all-btn:hover,
+.view-all-btn:active {
+  border-bottom: 1px solid #038aff;
+}
