@@ -27,3 +27,64 @@ body {
 .view-all-btn:active {
   border-bottom: 1px solid #038aff;
 }
+
+.project-item1::after,
+.project-item2::after,
+.project-item3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(161, 161, 161, 0.377);
+  height: 2px;
+  width: 100%;
+}
+.project-item1::before,
+.project-item2::before,
+.project-item3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #ffd684;
+  height: 2px;
+}
+
+.project-item1::before {
+  width: 50%;
+}
+.project-item2::before {
+  width: 65%;
+}
+.project-item3::before {
+  width: 85%;
+}
+
+/* Self-set common Styles */
+
+.rounded-xl {
+  border-radius: 0.8rem;
+}
+
+.my-6 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.line-height-paragraph {
+  line-height: 2.4rem !important;
+}
+
+.col-gap-1 {
+  gap: 1rem !important;
+}
+.col-gap-2 {
+  gap: 2rem !important;
+}
+.col-gap-3 {
+  gap: 3rem !important;
+}
+.col-gap-4 {
+  gap: 4rem !important;
+}

@@ -6,9 +6,10 @@ import {
   Nav,
   Navbar as NavbarBs,
 } from "react-bootstrap";
-import OdooLogo from "../assets/odoo-white.svg";
 
-import { FiShoppingBag } from "react-icons/fi";
+import OdooLogo from "../assets/odoo-white.svg";
+import { FiShoppingBag } from "./ReactIcons";
+
 import { NAVBARLINKS } from "../data/constants";
 
 const Navbar = () => {

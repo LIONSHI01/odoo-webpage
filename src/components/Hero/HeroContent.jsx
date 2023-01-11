@@ -1,8 +1,7 @@
 import React from "react";
-import { HiOutlinePlusSm } from "react-icons/hi";
-import { IoIosArrowForward } from "react-icons/io";
-
 import { Row, Col, Container, Button, Image } from "react-bootstrap";
+
+import { HiOutlinePlusSm, IoIosArrowForward } from "../ReactIcons";
 import airbnbLogo from "../../assets/airbnb-white.svg";
 import googleLogo from "../../assets/google-white.svg";
 import spotifyLogo from "../../assets/spotify-white.svg";
