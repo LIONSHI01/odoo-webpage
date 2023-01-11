@@ -1,11 +1,23 @@
 import "./App.css";
 
-import { Hero } from "./components";
+import {
+  Hero,
+  CardOne,
+  CardTwo,
+  CardThree,
+  CardFour,
+  Footer,
+} from "./components";
 
 function App() {
   return (
     <>
       <Hero />
+      <CardOne />
+      <CardTwo />
+      <CardThree />
+      <CardFour />
+      <Footer />
     </>
   );
 }

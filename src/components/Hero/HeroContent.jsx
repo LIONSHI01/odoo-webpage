@@ -55,7 +55,7 @@ const HeroContent = () => {
               className="bg-transparent text-dark border-0"
               style={{ fontSize: "1.3rem" }}
             >
-              Manage Cards
+              Manage cards
             </Button>
             <Button
               className="bg-transparent px-4"
