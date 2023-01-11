@@ -5,5 +5,15 @@ import CardTwo from "./CardTwo";
 import CardThree from "./CardThree";
 import CardFour from "./CardFour";
 import Footer from "./Footer";
+import PlayVideoBtn from "./PlayVideoBtn";
 
-export { Hero, Navbar, CardOne, CardTwo, CardThree, CardFour, Footer };
+export {
+  Hero,
+  Navbar,
+  CardOne,
+  CardTwo,
+  CardThree,
+  CardFour,
+  Footer,
+  PlayVideoBtn,
+};

@@ -46,10 +46,10 @@ const Navbar = () => {
             Sign in
           </Button>
           <Button
-            className="d-flex align-items-center py-2 px-3"
+            className="d-flex align-items-center py-2 px-3 rounded-btn"
             style={{
               backgroundColor: "#fff",
-              border: "none",
+              border: "#fff",
               color: "black",
               gap: "0.8rem",
             }}

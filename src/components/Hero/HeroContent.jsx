@@ -25,10 +25,10 @@ const HeroContent = () => {
               from scratch.
             </h3>
             <Button
-              className="py-3 px-5"
+              className="py-3 px-5 rounded-btn"
               style={{
                 backgroundColor: "#fff",
-                border: "none",
+                border: "#fff",
                 color: "black",
                 gap: "0.8rem",
               }}
@@ -51,17 +51,16 @@ const HeroContent = () => {
         >
           <div className="d-flex justify-content-between">
             <Button
-              className="bg-transparent text-dark border-0"
+              className="bg-transparent text-dark border-0 rounded-btn"
               style={{ fontSize: "1.3rem" }}
             >
               Manage cards
             </Button>
             <Button
-              className="bg-transparent px-4"
+              className="bg-transparent px-4 rounded-btn"
               style={{
                 color: "black",
                 border: "2px solid #0000003c",
-                borderRadius: "0.45rem",
               }}
             >
               Add new
@@ -79,7 +78,8 @@ const HeroContent = () => {
             <div className="d-flex justify-content-between">
               <Image src={masterCardLogo} height="35px" />
               <Button
-                style={{ backgroundColor: "#5BCAA7", borderRadius: "0.45rem" }}
+                className="rounded-btn"
+                style={{ backgroundColor: "#5BCAA7" }}
               >
                 Active
               </Button>

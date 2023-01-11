@@ -61,23 +61,18 @@ body {
   width: 85%;
 }
 
-/* Self-set common Styles */
-
+/*SELF SET STYLES */
 .rounded-xl {
   border-radius: 0.8rem;
 }
-
-.my-6 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+.rounded-btn {
+  border-radius: 0.45rem !important;
 }
 
-.line-height-paragraph {
-  line-height: 2.4rem !important;
-}
-
+/* SPACING */
+/* Gap */
 .col-gap-1 {
-  gap: 1rem !important;
+  gap: 0.8rem !important;
 }
 .col-gap-2 {
   gap: 2rem !important;
@@ -87,4 +82,35 @@ body {
 }
 .col-gap-4 {
   gap: 4rem !important;
+}
+
+/* Margin */
+.my-6 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.mb-6 {
+  margin-bottom: 4rem;
+}
+
+/* TYPOGRAPHY */
+.fs-1 {
+  font-size: 4.8rem !important;
+}
+.fs-2 {
+  font-size: 3.6rem !important;
+}
+.fs-3 {
+  font-size: 2.4rem !important;
+}
+.fs-4 {
+  font-size: 1.6rem !important;
+}
+.fs-5 {
+  font-size: 1.2rem !important;
+}
+
+.line-height-paragraph {
+  line-height: 2.4rem !important;
 }

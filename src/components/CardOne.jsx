@@ -1,8 +1,9 @@
 import React from "react";
-
 import { Row, Col, Image, Container, Button } from "react-bootstrap";
+
 import { IoIosArrowForward } from "./ReactIcons";
-import meetImage from "../assets/img_01.jpg";
+import image01 from "../assets/img_01.jpg";
+import { PlayVideoBtn } from "./index";
 
 const CardOne = () => {
   return (
@@ -46,10 +47,8 @@ const CardOne = () => {
               </div>
             </div>
           </div>
-          <Image
-            src={meetImage}
-            alt="meeting"
-            className="img-fluid rounded-xl shadow"
+          <div
+            className=""
             style={{
               position: "absolute",
               top: 0,
@@ -57,7 +56,23 @@ const CardOne = () => {
               width: "21rem",
               zIndex: 10,
             }}
-          />
+          >
+            <Image
+              src={image01}
+              alt="tools"
+              className="img-fluid rounded-xl shadow"
+            />
+            <div
+              style={{
+                position: "absolute",
+                top: 20,
+                right: 20,
+                zIndex: 20,
+              }}
+            >
+              <PlayVideoBtn />
+            </div>
+          </div>
         </Col>
         <Col>
           <Button
@@ -72,7 +87,7 @@ const CardOne = () => {
           >
             We build for designers and developers
           </h2>
-          <p className="text-muted h5 line-height-paragraph">
+          <p className="text-muted fs-4 line-height-paragraph">
             Get components and examples, including tons of variables that will
             help you grow your business.
           </p>
