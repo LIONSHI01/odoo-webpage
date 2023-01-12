@@ -77,7 +77,10 @@ const CardOne = () => {
         <Col>
           <Button
             className="rounded-pill mb-4"
-            style={{ backgroundColor: "#FEBD3D", borderColor: "#FEBD3D" }}
+            style={{
+              backgroundColor: "var(--color-yellow)",
+              borderColor: "var(--color-yellow)",
+            }}
           >
             Tools
           </Button>

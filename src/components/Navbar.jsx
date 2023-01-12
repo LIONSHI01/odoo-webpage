@@ -14,7 +14,7 @@ import { NAVBARLINKS } from "../data/constants";
 
 const Navbar = () => {
   return (
-    <NavbarBs sticky="top" style={{ backgroundColor: "#038AFF" }}>
+    <NavbarBs sticky="top" style={{ backgroundColor: "var(--color-blue)" }}>
       <Container
         className="py-4 "
         style={{
@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="d-flex" style={{ gap: "2rem" }}>
           <Button
             style={{
-              backgroundColor: "#038AFF",
+              backgroundColor: "var(--color-blue)",
               border: "none",
               color: "#e6e6e6",
             }}

@@ -12,7 +12,10 @@ const CardTwo = () => {
         <Col>
           <Button
             className="rounded-pill mb-4"
-            style={{ backgroundColor: "#5BCAA7", borderColor: "#5BCAA7" }}
+            style={{
+              backgroundColor: "var(--color-green)",
+              borderColor: "var(--color-green)",
+            }}
           >
             Features
           </Button>
@@ -25,14 +28,14 @@ const CardTwo = () => {
               <span
                 className="d-flex justify-content-center align-items-center rounded-lg"
                 style={{
-                  backgroundColor: "#5BCAA7",
+                  backgroundColor: "var(--color-green)",
                   height: "1.5rem",
                   width: "1.5rem",
                 }}
               >
                 <BsCheckLg size={13} color="white" />
               </span>
-              <span className="fs-5" style={{ color: "#5BCAA7" }}>
+              <span className="fs-5" style={{ color: "var(--color-green)" }}>
                 Perfect for modern startups
               </span>
             </div>
@@ -40,14 +43,14 @@ const CardTwo = () => {
               <span
                 className="d-flex justify-content-center align-items-center rounded-lg"
                 style={{
-                  backgroundColor: "#5BCAA7",
+                  backgroundColor: "var(--color-green)",
                   height: "1.5rem",
                   width: "1.5rem",
                 }}
               >
                 <BsCheckLg size={13} color="white" />
               </span>
-              <span className="fs-5" style={{ color: "#5BCAA7" }}>
+              <span className="fs-5" style={{ color: "var(--color-green)" }}>
                 Fully customizable and scalable
               </span>
             </div>

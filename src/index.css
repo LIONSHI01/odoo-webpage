@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
+:root {
+  --color-blue: #038aff;
+  --color-green: #5bcaa7;
+  --color-yellow: #febd3d;
+}
+
 body {
   font-family: "Ubuntu", sans-serif;
 }
@@ -26,6 +32,19 @@ body {
 .view-all-btn:hover,
 .view-all-btn:active {
   border-bottom: 1px solid #038aff;
+}
+
+.linkBtn-underline:link,
+.linkBtn-underline:visited {
+  text-decoration: none;
+  color: #038aff;
+  border-bottom: 2px solid #038aff;
+  transition: all 0.3s;
+}
+.linkBtn-underline:hover,
+.linkBtn-underline:active {
+  color: #68b9ff;
+  border-bottom: 2px solid #68b9ff;
 }
 
 .project-item1::after,
@@ -63,7 +82,7 @@ body {
 
 /*SELF SET STYLES */
 .rounded-xl {
-  border-radius: 0.8rem;
+  border-radius: 0.8rem !important;
 }
 .rounded-btn {
   border-radius: 0.45rem !important;
@@ -75,10 +94,10 @@ body {
   gap: 0.8rem !important;
 }
 .col-gap-2 {
-  gap: 2rem !important;
+  gap: 1.2rem !important;
 }
 .col-gap-3 {
-  gap: 3rem !important;
+  gap: 2rem !important;
 }
 .col-gap-4 {
   gap: 4rem !important;
@@ -113,4 +132,31 @@ body {
 
 .line-height-paragraph {
   line-height: 2.4rem !important;
+}
+
+/* BUTTON */
+
+.person-icon {
+  border: 2px solid #fff;
+}
+
+.less-margin-right-1 {
+  margin-right: -1rem;
+}
+
+/* .gradient-border-top {
+} */
+.gradient-border-top::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(29, 29, 51, 0.193) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
