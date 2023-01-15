@@ -7,6 +7,9 @@ import {
   CardThree,
   CardFour,
   Footer,
+  Solutions,
+  CTA,
+  FAQ,
 } from "./components";
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
       <CardTwo />
       <CardThree />
       <CardFour />
+      <Solutions />
+      <CTA />
+      <FAQ />
       <Footer />
     </>
   );

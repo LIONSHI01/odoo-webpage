@@ -25,7 +25,7 @@ const HeroContent = () => {
               from scratch.
             </h3>
             <Button
-              className="py-3 px-5 rounded-btn"
+              className="d-flex align-items-center py-3 px-5 rounded-btn"
               style={{
                 backgroundColor: "#fff",
                 border: "#fff",

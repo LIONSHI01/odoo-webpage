@@ -1,5 +1,5 @@
 import { FiShoppingBag, FiPaperclip } from "react-icons/fi";
-import { HiOutlinePlusSm } from "react-icons/hi";
+import { HiOutlinePlusSm, HiArrowRight } from "react-icons/hi";
 import { RiGooglePlayLine } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
 import { BsCheckLg, BsPlay, BsApple } from "react-icons/bs";
@@ -17,4 +17,5 @@ export {
   FiPaperclip,
   BsApple,
   RiGooglePlayLine,
+  HiArrowRight,
 };
