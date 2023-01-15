@@ -76,7 +76,7 @@ const CardOne = () => {
         </Col>
         <Col>
           <Button
-            className="rounded-pill mb-4"
+            className="rounded-pill mb-4 hover-yellow"
             style={{
               backgroundColor: "var(--color-yellow)",
               borderColor: "var(--color-yellow)",

@@ -115,15 +115,7 @@ const CardThree = () => {
           </div>
         </Col>
         <Col className="d-flex flex-column align-items-start">
-          <Button
-            className="rounded-pill mb-4"
-            style={{
-              backgroundColor: "var(--color-blue)",
-              borderColor: "var(--color-blue)",
-            }}
-          >
-            Technology
-          </Button>
+          <Button className="rounded-pill mb-4">Technology</Button>
           <h2
             className="mb-5 h1 font-weight-normal"
             style={{ letterSpacing: "1px" }}

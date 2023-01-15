@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="d-flex col-gap-1">
             <Button
-              className="d-flex justify-content-center align-items-center py-2 px-4 rounded-btn"
+              className="d-flex justify-content-center align-items-center py-2 px-4 rounded-btn odoo-white-btn "
               style={{
                 backgroundColor: "white",
                 border: "white",
@@ -34,7 +34,7 @@ const Footer = () => {
                 gap: "0.8rem",
               }}
             >
-              <HiOutlineDocument size={20} color="var(--color-blue)" />
+              <HiOutlineDocument size={20} className="footer-icon" />
               <span>Documentation</span>
             </Button>
             <Button
@@ -50,7 +50,7 @@ const Footer = () => {
         {/* Footer Columns */}
         <div className="footer-border mb-5">
           <Row>
-            <Col className="d-flex flex-column col-gap-2">
+            <Col xs={6} className="d-flex flex-column col-gap-2">
               <Image src={OdooLogo} width="100px" />
               <p className="fs-6" style={{ color: "var(--color-grey)" }}>
                 Odoo attempts to bring the best development experience to
@@ -58,16 +58,16 @@ const Footer = () => {
                 a quick and solid start in most web projects.
               </p>
               <div className="d-flex col-gap-4">
-                <a href="/" target="_blank" className="odooLink">
+                <a href="/" target="_blank" className="odoo-footer-link">
                   <VscGlobe size={23} color="var(--color-grey)" />
                 </a>
-                <a href="/" target="_blank" className="odooLink">
+                <a href="/" target="_blank" className="odoo-footer-link">
                   <BsGithub size={23} color="var(--color-grey)" />
                 </a>
-                <a href="/" target="_blank" className="odooLink">
+                <a href="/" target="_blank" className="odoo-footer-link">
                   <BsInstagram size={23} color="var(--color-grey)" />
                 </a>
-                <a href="/" target="_blank" className="odooLink">
+                <a href="/" target="_blank" className="odoo-footer-link">
                   <BsFacebook size={23} color="var(--color-grey)" />
                 </a>
               </div>
@@ -91,7 +91,7 @@ const Footer = () => {
                         href={link}
                         target="_blank"
                         rel="noreferrer"
-                        className="odooLink"
+                        className="odoo-footer-link"
                         style={{
                           color: "var(--color-grey)",
                         }}
@@ -107,18 +107,18 @@ const Footer = () => {
         </div>
         {/* Copyright row */}
         <div
-          className="d-flex justify-content-between"
+          className="d-flex justify-content-between py-1"
           style={{ color: "var(--color-grey)" }}
         >
           <span>&#169; Odoo. All rights reserved</span>
           <div className="d-flex col-gap-3">
-            <a href="/" target="_blank" className="odooLink">
+            <a href="/" target="_blank" className="odoo-footer-link">
               Terms
             </a>
-            <a href="/" target="_blank" className="odooLink">
+            <a href="/" target="_blank" className="odoo-footer-link">
               Privacy
             </a>
-            <a href="/" target="_blank" className="odooLink">
+            <a href="/" target="_blank" className="odoo-footer-link">
               Cookies
             </a>
           </div>

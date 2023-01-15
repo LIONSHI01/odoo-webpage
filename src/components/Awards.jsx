@@ -13,15 +13,7 @@ const Awards = () => {
     >
       <Container className="d-flex flex-column">
         <div>
-          <Button
-            className="rounded-pill mb-4"
-            style={{
-              backgroundColor: "var(--color-blue)",
-              borderColor: "var(--color-blue)",
-            }}
-          >
-            Awards
-          </Button>
+          <Button className="rounded-pill mb-4">Awards</Button>
           <p>Awards for design, creativity, and innovation on the Internet</p>
         </div>
 

@@ -25,7 +25,7 @@ const HeroContent = () => {
               from scratch.
             </h3>
             <Button
-              className="d-flex align-items-center py-3 px-5 rounded-btn"
+              className="d-flex align-items-center py-3 px-5 rounded-btn odoo-white-btn"
               style={{
                 backgroundColor: "#fff",
                 border: "#fff",
@@ -51,13 +51,13 @@ const HeroContent = () => {
         >
           <div className="d-flex justify-content-between">
             <Button
-              className="bg-transparent text-dark border-0 rounded-btn"
-              style={{ fontSize: "1.3rem" }}
+              className="bg-transparent text-dark rounded-btn hover-blue"
+              style={{ fontSize: "1.3rem", border: "1px solid transparent" }}
             >
               Manage cards
             </Button>
             <Button
-              className="bg-transparent px-4 rounded-btn"
+              className="bg-transparent px-4 rounded-btn hover-blue"
               style={{
                 color: "black",
                 border: "2px solid #0000003c",
@@ -75,10 +75,10 @@ const HeroContent = () => {
               padding: "2.3rem",
             }}
           >
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between ">
               <Image src={masterCardLogo} height="35px" />
               <Button
-                className="rounded-btn"
+                className="rounded-btn hover-green"
                 style={{ backgroundColor: "#5BCAA7" }}
               >
                 Active

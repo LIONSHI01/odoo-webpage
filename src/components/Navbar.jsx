@@ -36,12 +36,13 @@ const Navbar = () => {
         <NavbarBs.Brand href="/">
           <Image src={OdooLogo} width="100px" />
         </NavbarBs.Brand>
-        <Nav className="me-auto" style={{ gap: "1rem" }}>
+        <Nav className="me-auto d-flex col-gap-3">
           {NAVBARLINKS.map((item) => (
             <Nav.Link
               key={item.item}
               href={item.url}
-              style={{ color: "var(--color-blue-light)" }}
+              className="odooLink-white"
+              style={{ color: "var(--color-blue-light)", padding: "0.4rem 0" }}
             >
               {item.item}
             </Nav.Link>
@@ -49,6 +50,7 @@ const Navbar = () => {
         </Nav>
         <div className="d-flex" style={{ gap: "2rem" }}>
           <Button
+            className="odoo-white-btn"
             style={{
               backgroundColor: "var(--color-blue)",
               border: "none",
@@ -58,7 +60,7 @@ const Navbar = () => {
             Sign in
           </Button>
           <Button
-            className="d-flex align-items-center py-2 px-3 rounded-btn"
+            className="d-flex align-items-center py-2 px-3 rounded-btn odoo-white-btn"
             style={{
               backgroundColor: "#fff",
               border: "#fff",

@@ -11,7 +11,7 @@ const CardTwo = () => {
       <Row className="d-flex align-items-center col-gap-4">
         <Col>
           <Button
-            className="rounded-pill mb-4"
+            className="rounded-pill mb-4 hover-green"
             style={{
               backgroundColor: "var(--color-green)",
               borderColor: "var(--color-green)",

@@ -29,7 +29,7 @@ const Solutions = () => {
             </p>
           </div>
           <Button
-            className="d-flex align-items-center py-3 px-4 rounded-btn col-gap-1"
+            className="d-flex align-items-center py-3 px-4 rounded-btn col-gap-1 hover-blue"
             style={{
               backgroundColor: "#fff",
               border: "#fff",
