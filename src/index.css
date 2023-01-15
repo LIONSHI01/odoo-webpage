@@ -129,6 +129,9 @@ body {
 .fs-5 {
   font-size: 1.2rem !important;
 }
+.fs-6 {
+  font-size: 0.8rem !important;
+}
 
 .line-height-paragraph {
   line-height: 2.4rem !important;
@@ -144,8 +147,6 @@ body {
   margin-right: -1rem;
 }
 
-/* .gradient-border-top {
-} */
 .gradient-border-top::after {
   content: "";
   height: 1px;
@@ -159,4 +160,17 @@ body {
     rgba(29, 29, 51, 0.193) 50%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+
+/* LINK */
+
+.odooLink:link,
+.odooLink:visited {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.odooLink:hover,
+.odooLink:active {
+  color: inherit;
 }

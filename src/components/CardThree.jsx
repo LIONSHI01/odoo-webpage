@@ -18,7 +18,7 @@ import person03 from "../assets/person_03.jpg";
 const CardThree = () => {
   return (
     <Container>
-      <Row>
+      <Row className="d-flex align-items-center">
         <Col className="d-flex col-gap-2 align-items-center">
           <div
             className="d-flex flex-column col-gap-2"
@@ -33,6 +33,7 @@ const CardThree = () => {
                     backgroundColor: "#FEBD3D",
                     width: "3rem",
                     height: "3rem",
+                    color: "white",
                   }}
                 >
                   JH
@@ -106,9 +107,9 @@ const CardThree = () => {
                 />
               </div>
               <div className="d-flex col-gap-2 p-4 gradient-border-top position-relative ">
-                <FiPaperclip size={20} className="text-muted" />
-                <AiOutlineEye size={20} className="text-muted" />
-                <AiOutlineHeart size={20} className="text-muted" />
+                <FiPaperclip size={16} className="text-muted" />
+                <AiOutlineEye size={16} className="text-muted" />
+                <AiOutlineHeart size={16} className="text-muted" />
               </div>
             </div>
           </div>
