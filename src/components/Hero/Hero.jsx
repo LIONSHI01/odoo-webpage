@@ -5,7 +5,7 @@ import HeroContent from "./HeroContent";
 const Hero = () => {
   return (
     <section
-      className="steap-border-bottom py-6"
+      className="steap-border-bottom py-6 hero-adjust"
       style={{
         backgroundColor: "#038AFF",
       }}

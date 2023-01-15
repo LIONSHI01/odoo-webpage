@@ -9,7 +9,13 @@ const CardFour = () => {
   return (
     <Container className="my-6">
       <Row>
-        <Col className="d-flex flex-column align-items-start col-gap-2">
+        <Col
+          xs={6}
+          className="d-flex flex-column align-items-start col-gap-2"
+          style={{
+            width: "60%",
+          }}
+        >
           <Button
             className="rounded-pill mb-4 hover-yellow"
             style={{
@@ -33,15 +39,18 @@ const CardFour = () => {
             <a
               href="/"
               target="_blank"
-              className="d-flex align-items-center rounded-lg col-gap-1 py-2 px-4 odooLink"
+              className="d-flex align-items-center  justify-content-center rounded-lg col-gap-1 odooLink"
               style={{
                 color: "white",
                 backgroundColor: "#000",
+                padding: "0.5rem",
+                minWidth: "10rem",
+                width: "100%",
               }}
             >
               <BsApple size={35} />
               <div className="d-flex flex-column">
-                <span className="fs-6" style={{ marginBottom: "-0.5rem" }}>
+                <span className="fs-7" style={{ marginBottom: "-0.5rem" }}>
                   Download on the
                 </span>
                 <span className="fs-5">App Store</span>
@@ -50,15 +59,18 @@ const CardFour = () => {
             <a
               href="/"
               target="_blank"
-              className="d-flex align-items-center rounded-lg col-gap-1 py-2 px-4 odooLink"
+              className="d-flex align-items-center justify-content-center rounded-lg col-gap-1 odooLink"
               style={{
                 color: "white",
                 backgroundColor: "#000",
+                padding: "0.5rem 0.8rem",
+                minWidth: "10rem",
+                width: "100%",
               }}
             >
               <RiGooglePlayLine size={35} />
               <div className="d-flex flex-column">
-                <span className="fs-6" style={{ marginBottom: "-0.5rem" }}>
+                <span className="fs-7" style={{ marginBottom: "-0.5rem" }}>
                   Download on the
                 </span>
                 <span className="fs-5">App Store</span>
@@ -67,7 +79,7 @@ const CardFour = () => {
           </div>
         </Col>
         <Col>
-          <div className="position-relative odoo-shadow-light-s">
+          <div className="position-relative odoo-shadow-light-s rounded-xl">
             <Image
               src={image03}
               alt="features"
