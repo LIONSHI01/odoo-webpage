@@ -7,7 +7,7 @@ const FAQ = () => {
   return (
     <Container>
       <div className="d-flex flex-column align-items-center">
-        <h3>Helpful answers</h3>
+        <h3 className="fs-3 font-weight-normal">Helpful answers</h3>
         <p className="fs-6 text-muted">
           Start building fast, beautiful, and modern-looking websites in no
           time.
@@ -83,18 +83,4 @@ const FAQ = () => {
   );
 };
 
-const QuestionItem = ({ question }) => {
-  return (
-    <div
-      className="d-flex w-100 bg-white shadow p-4 rounded-xl justify-content-between"
-      style={{ cursor: "pointer" }}
-    >
-      <div className="d-flex col-gap-1 align-items-center">
-        <HiOutlineDocument size={20} />
-        <span>Which license do I need?</span>
-      </div>
-      <BsPlus size={20} />
-    </div>
-  );
-};
 export default FAQ;

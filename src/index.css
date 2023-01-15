@@ -5,6 +5,7 @@
   --color-green: #5bcaa7;
   --color-yellow: #febd3d;
   --color-dark: #161348;
+  --color-grey: #a1aec1;
 }
 
 body {
@@ -189,4 +190,14 @@ body {
 .learn-more-link:hover,
 .learn-more-link:active {
   border-bottom: 2px solid #000;
+}
+
+.footer-border {
+  border-bottom: 10px solid
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(29, 29, 51, 0.193) 50%,
+      rgba(255, 255, 255, 1) 100%
+    );
 }

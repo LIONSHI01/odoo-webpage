@@ -72,14 +72,84 @@ export const AWARDS = [
   },
 ];
 
-export const FAQs = [
+/**
+ * 
+ * Account
+●Profile
+●Settings
+●Billing
+●Notifications
+
+About
+●Services
+●Pricing
+●Contact
+●Careers
+
+Company
+●Community
+●Help center
+●Support
+ */
+
+export const FOOTER_LINKS = [
   {
-    question: "Which license do I need?",
+    category: "Account",
+    links: [
+      {
+        title: "Profile",
+        link: "/",
+      },
+      {
+        title: "Settings",
+        link: "/",
+      },
+      {
+        title: "Billing",
+        link: "/",
+      },
+      {
+        title: "Notifications",
+        link: "/",
+      },
+    ],
   },
   {
-    question: "How do I get access to my database?",
+    category: "About",
+    links: [
+      {
+        title: "Services",
+        link: "/",
+      },
+      {
+        title: "Pricing",
+        link: "/",
+      },
+      {
+        title: "Contact",
+        link: "/",
+      },
+      {
+        title: "Careers",
+        link: "/",
+      },
+    ],
   },
   {
-    question: "How do I see previous orders?",
+    category: "Company",
+    links: [
+      {
+        title: "Community",
+        link: "/",
+      },
+      {
+        title: "Help center",
+        link: "/",
+      },
+      {
+        title: "Support",
+        link: "/",
+      },
+    ],
   },
 ];
