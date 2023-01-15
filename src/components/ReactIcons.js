@@ -1,8 +1,12 @@
 import { FiShoppingBag, FiPaperclip } from "react-icons/fi";
-import { HiOutlinePlusSm, HiArrowRight } from "react-icons/hi";
+import {
+  HiOutlineDocument,
+  HiOutlinePlusSm,
+  HiArrowRight,
+} from "react-icons/hi";
 import { RiGooglePlayLine } from "react-icons/ri";
 import { IoIosArrowForward } from "react-icons/io";
-import { BsCheckLg, BsPlay, BsApple } from "react-icons/bs";
+import { BsCheckLg, BsPlay, BsApple, BsPlus } from "react-icons/bs";
 import { AiOutlineHeart, AiOutlineStar, AiOutlineEye } from "react-icons/ai";
 
 export {
@@ -18,4 +22,6 @@ export {
   BsApple,
   RiGooglePlayLine,
   HiArrowRight,
+  HiOutlineDocument,
+  BsPlus,
 };

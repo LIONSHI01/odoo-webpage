@@ -8,6 +8,7 @@ import {
   CardFour,
   Footer,
   Solutions,
+  Awards,
   CTA,
   FAQ,
 } from "./components";
@@ -21,8 +22,9 @@ function App() {
       <CardThree />
       <CardFour />
       <Solutions />
-      <CTA />
+      <Awards />
       <FAQ />
+      <CTA />
       <Footer />
     </>
   );

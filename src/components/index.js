@@ -9,6 +9,7 @@ import PlayVideoBtn from "./PlayVideoBtn";
 import Solutions from "./Solutions";
 import CTA from "./CTA";
 import FAQ from "./FAQ";
+import Awards from "./Awards";
 
 export {
   Hero,
@@ -22,4 +23,5 @@ export {
   Solutions,
   CTA,
   FAQ,
+  Awards,
 };

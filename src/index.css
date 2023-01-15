@@ -114,6 +114,12 @@ body {
   margin-bottom: 4rem;
 }
 
+/* PADDING */
+.py-6 {
+  padding-top: 3.5rem !important;
+  padding-bottom: 3.5rem !important;
+}
+
 /* TYPOGRAPHY */
 .fs-1 {
   font-size: 4.8rem !important;
@@ -174,4 +180,13 @@ body {
 .odooLink:hover,
 .odooLink:active {
   color: inherit;
+}
+
+.learn-more-link:link,
+.learn-more-link:visited {
+  border-bottom: 2px solid #000;
+}
+.learn-more-link:hover,
+.learn-more-link:active {
+  border-bottom: 2px solid #000;
 }
