@@ -5,7 +5,7 @@ import { HiArrowRight } from "./ReactIcons";
 
 const CTA = () => {
   return (
-    <Container className="d-flex flex-column align-items-center">
+    <Container className="d-flex flex-column align-items-center my-6">
       <p className="fs-5">I want to start a new project.</p>
       <div className="d-flex col-gap-1">
         <Button

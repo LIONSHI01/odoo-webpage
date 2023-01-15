@@ -13,20 +13,20 @@ import { FOOTER_LINKS } from "../data/constants";
 
 const Footer = () => {
   return (
-    <div
-      className="py-5"
+    <footer
+      className="pt-5 pb-1 steap-border-top"
       style={{ backgroundColor: "var(--color-dark)", color: "white" }}
     >
       <Container>
         {/* CTA in Footer */}
-        <div className="d-flex align-items-center justify-content-between">
+        <div className="d-flex align-items-center justify-content-between my-5">
           <div>
             <h4>Brilliant solutions for your ideas</h4>
             <span>Modern-looking websites.</span>
           </div>
           <div className="d-flex col-gap-1">
             <Button
-              className="d-flex align-items-center py-3 px-5 rounded-btn"
+              className="d-flex justify-content-center align-items-center py-2 px-4 rounded-btn"
               style={{
                 backgroundColor: "white",
                 border: "white",
@@ -38,7 +38,7 @@ const Footer = () => {
               <span>Documentation</span>
             </Button>
             <Button
-              className="d-flex align-items-center py-1 px-4 rounded-btn"
+              className="d-flex align-items-center py-2 px-4 rounded-btn"
               style={{
                 gap: "0.8rem",
               }}
@@ -48,11 +48,11 @@ const Footer = () => {
           </div>
         </div>
         {/* Footer Columns */}
-        <div className="footer-border">
+        <div className="footer-border mb-5">
           <Row>
             <Col className="d-flex flex-column col-gap-2">
               <Image src={OdooLogo} width="100px" />
-              <p className="fs-5" style={{ color: "var(--color-grey)" }}>
+              <p className="fs-6" style={{ color: "var(--color-grey)" }}>
                 Odoo attempts to bring the best development experience to
                 designers and developers by offering the tools needed for having
                 a quick and solid start in most web projects.
@@ -124,7 +124,7 @@ const Footer = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </footer>
   );
 };
 

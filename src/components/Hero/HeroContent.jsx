@@ -11,7 +11,7 @@ import masterCardLogo from "../../assets/mastercard.svg";
 const HeroContent = () => {
   return (
     <Container className="py-5">
-      <Row className="d-flex align-items-center">
+      <Row className="d-flex align-items-center col-gap-3">
         <Col>
           <div className="mb-5" style={{ width: "60%" }}>
             <h1 className="text-white" style={{ fontSize: "3rem" }}>
@@ -19,7 +19,7 @@ const HeroContent = () => {
             </h1>
             <h3
               className="h6 my-5"
-              style={{ color: "#e6e6e6", lineHeight: "1.7rem" }}
+              style={{ color: "var(--color-blue-light)", lineHeight: "1.7rem" }}
             >
               Build a beautiful, modern website with flexible components built
               from scratch.

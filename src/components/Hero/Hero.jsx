@@ -1,12 +1,15 @@
 import React from "react";
 
-import Navbar from "../Navbar";
 import HeroContent from "./HeroContent";
 
 const Hero = () => {
   return (
-    <section style={{ backgroundColor: "#038AFF" }}>
-      <Navbar />
+    <section
+      className="steap-border-bottom py-6"
+      style={{
+        backgroundColor: "#038AFF",
+      }}
+    >
       <HeroContent />
     </section>
   );

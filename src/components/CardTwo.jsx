@@ -7,8 +7,8 @@ import image02 from "../assets/img_02.jpg";
 
 const CardTwo = () => {
   return (
-    <Container>
-      <Row className="d-flex align-items-center">
+    <Container className="my-6">
+      <Row className="d-flex align-items-center col-gap-4">
         <Col>
           <Button
             className="rounded-pill mb-4"
@@ -57,7 +57,7 @@ const CardTwo = () => {
           </div>
         </Col>
         <Col>
-          <div className="position-relative">
+          <div className="position-relative odoo-shadow-light-s">
             <Image
               src={image02}
               alt="features"

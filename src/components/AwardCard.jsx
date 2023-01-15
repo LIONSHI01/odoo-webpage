@@ -14,8 +14,9 @@ const AwardCard = ({
   if (isRating) {
     return (
       <div
-        className="d-flex flex-column col-gap-3 align-items-center   bg-white shadow rounded-xl"
-        style={{ width: "20rem", padding: "2.5rem" }}
+        className="d-flex flex-column col-gap-3 align-items-center justify-content-center bg-white rounded-xl odoo-shadow-light
+odoo-card-border"
+        style={{ minWidth: "16rem", padding: "2rem" }}
       >
         <Image src={image} alt="airbnb" height="40px" />
         <div className="d-flex" style={{ gap: "0.3rem" }}>
@@ -37,8 +38,8 @@ const AwardCard = ({
 
   return (
     <div
-      className="d-flex flex-column col-gap-3 align-items-center   bg-white shadow rounded-xl"
-      style={{ width: "20rem", padding: "2.5rem" }}
+      className="d-flex flex-column col-gap-3 align-items-center bg-white rounded-xl odoo-shadow-light odoo-card-border"
+      style={{ minWidth: "16rem", padding: "2rem" }}
     >
       <Image src={image} alt="airbnb" height="40px" />
 

@@ -7,7 +7,10 @@ import { AWARDS } from "../data/constants";
 
 const Awards = () => {
   return (
-    <div>
+    <section
+      className="my-6 py-7 steap-border-bottom"
+      style={{ backgroundColor: "#FAFBFF" }}
+    >
       <Container className="d-flex flex-column">
         <div>
           <Button
@@ -23,7 +26,15 @@ const Awards = () => {
         </div>
       </Container>
       {/* Cards list */}
-      <div className="d-flex col-gap-1 py-3">
+
+      <div
+        className="award-list d-flex col-gap-2"
+        style={{
+          overflow: "visible",
+          padding: "5rem 10rem",
+          overflow: "auto",
+        }}
+      >
         {AWARDS.map(
           ({
             companyImage,
@@ -45,7 +56,8 @@ const Awards = () => {
           )
         )}
       </div>
-    </div>
+      {/* </div> */}
+    </section>
   );
 };
 

@@ -72,25 +72,23 @@ export const AWARDS = [
   },
 ];
 
-/**
- * 
- * Account
-●Profile
-●Settings
-●Billing
-●Notifications
-
-About
-●Services
-●Pricing
-●Contact
-●Careers
-
-Company
-●Community
-●Help center
-●Support
- */
+export const FAQs = [
+  {
+    question: "Which license do I need?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    question: "How do I get access to my database?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+  {
+    question: "How do I see previous orders?",
+    answer:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
 
 export const FOOTER_LINKS = [
   {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Button,
   Container,
@@ -13,13 +13,25 @@ import { FiShoppingBag } from "./ReactIcons";
 import { NAVBARLINKS } from "../data/constants";
 
 const Navbar = () => {
+  const [sticky, setSticky] = useState(false);
+
+  const setNavSticky = () => {
+    if (window.scrollY >= 1) {
+      setSticky(true);
+    } else {
+      setSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", setNavSticky, true);
+  }, []);
+
   return (
     <NavbarBs sticky="top" style={{ backgroundColor: "var(--color-blue)" }}>
       <Container
-        className="py-4 "
-        style={{
-          borderBottom: "2px solid rgba(255, 255, 255, 0.25)",
-        }}
+        className={!sticky && "nav-sticky"}
+        style={{ padding: "0.6rem 0" }}
       >
         <NavbarBs.Brand href="/">
           <Image src={OdooLogo} width="100px" />
@@ -29,7 +41,7 @@ const Navbar = () => {
             <Nav.Link
               key={item.item}
               href={item.url}
-              style={{ color: "#e6e6e6" }}
+              style={{ color: "var(--color-blue-light)" }}
             >
               {item.item}
             </Nav.Link>

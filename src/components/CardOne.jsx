@@ -7,11 +7,11 @@ import { PlayVideoBtn } from "./index";
 
 const CardOne = () => {
   return (
-    <Container className="my-5">
-      <Row className="col-gap-4">
+    <Container className="my-6">
+      <Row className="d-flex align-items-center col-gap-5">
         <Col className="position-relative">
           <div
-            className="d-flex flex-column shadow rounded-xl p-5 my-6"
+            className="d-flex flex-column rounded-xl p-5 my-6 odoo-shadow-light odoo-card-border"
             style={{ gap: "1rem", width: "85%" }}
           >
             <h4 className="h5 font-weight-normal">Awesome projects</h4>
@@ -60,7 +60,7 @@ const CardOne = () => {
             <Image
               src={image01}
               alt="tools"
-              className="img-fluid rounded-xl shadow"
+              className="img-fluid rounded-xl odoo-shadow-light-s"
             />
             <div
               style={{
@@ -85,12 +85,12 @@ const CardOne = () => {
             Tools
           </Button>
           <h2
-            className="mb-5 h1 font-weight-normal"
+            className="mb-4 h1 font-weight-normal"
             style={{ letterSpacing: "1px" }}
           >
             We build for designers and developers
           </h2>
-          <p className="text-muted fs-4 line-height-paragraph">
+          <p className="text-muted fs-5 line-height-paragraph">
             Get components and examples, including tons of variables that will
             help you grow your business.
           </p>

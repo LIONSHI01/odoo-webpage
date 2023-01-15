@@ -1,6 +1,7 @@
 import "./App.css";
 
 import {
+  Navbar,
   Hero,
   CardOne,
   CardTwo,
@@ -16,15 +17,20 @@ import {
 function App() {
   return (
     <>
-      <Hero />
-      <CardOne />
-      <CardTwo />
-      <CardThree />
-      <CardFour />
-      <Solutions />
-      <Awards />
-      <FAQ />
-      <CTA />
+      <Navbar />
+      <main>
+        <Hero />
+        <section>
+          <CardOne />
+          <CardTwo />
+          <CardThree />
+          <CardFour />
+        </section>
+        <Solutions />
+        <Awards />
+        <FAQ />
+        <CTA />
+      </main>
       <Footer />
     </>
   );

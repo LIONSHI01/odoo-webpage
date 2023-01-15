@@ -2,6 +2,7 @@
 
 :root {
   --color-blue: #038aff;
+  --color-blue-light: #d0e4fd;
   --color-green: #5bcaa7;
   --color-yellow: #febd3d;
   --color-dark: #161348;
@@ -82,6 +83,10 @@ body {
   width: 85%;
 }
 
+.award-list:nth-child(odd) {
+  background-color: rebeccapurple;
+}
+
 /*SELF SET STYLES */
 .rounded-xl {
   border-radius: 0.8rem !important;
@@ -104,21 +109,33 @@ body {
 .col-gap-4 {
   gap: 4rem !important;
 }
+.col-gap-5 {
+  gap: 5rem !important;
+}
 
 /* Margin */
 .my-6 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
 }
 
 .mb-6 {
-  margin-bottom: 4rem;
+  margin-bottom: 4rem !important;
 }
 
 /* PADDING */
 .py-6 {
   padding-top: 3.5rem !important;
   padding-bottom: 3.5rem !important;
+}
+
+.p-7 {
+  padding: 4rem !important;
+}
+
+.py-7 {
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
 }
 
 /* TYPOGRAPHY */
@@ -135,9 +152,12 @@ body {
   font-size: 1.6rem !important;
 }
 .fs-5 {
-  font-size: 1.2rem !important;
+  font-size: 1.4rem !important;
 }
 .fs-6 {
+  font-size: 1.1rem !important;
+}
+.fs-7 {
   font-size: 0.8rem !important;
 }
 
@@ -200,4 +220,54 @@ body {
       rgba(29, 29, 51, 0.193) 50%,
       rgba(255, 255, 255, 1) 100%
     );
+}
+
+/* SHADOW */
+
+.odoo-shadow-light {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 20px;
+}
+.odoo-shadow-light-s {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+/* BORDER */
+.odoo-card-border {
+  border: 1px solid #dbdcdf;
+}
+
+/* CUSTOMIZED STYLES */
+
+.accordion-content {
+  max-height: 0;
+  opacity: 0;
+  overflow-y: hidden;
+  transition: all 0.7s cubic-bezier(0.86, -0.06, 0.25, 1.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  visibility: hidden;
+  display: none;
+
+  padding-top: 1.5rem;
+}
+.accordion-content.show {
+  display: flex;
+  opacity: 1;
+  height: auto;
+  max-height: 999px;
+  transition: all 0.7s cubic-bezier(0.86, -0.06, 0.25, 1.08);
+  visibility: visible;
+}
+
+/* Steap Background */
+.steap-border-bottom {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+}
+.steap-border-top {
+  -webkit-clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.nav-sticky {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }

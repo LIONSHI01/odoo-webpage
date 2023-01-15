@@ -17,14 +17,14 @@ import person03 from "../assets/person_03.jpg";
 
 const CardThree = () => {
   return (
-    <Container>
-      <Row className="d-flex align-items-center">
+    <Container className="my-6">
+      <Row className="d-flex align-items-center col-gap-4">
         <Col className="d-flex col-gap-2 align-items-center">
           <div
             className="d-flex flex-column col-gap-2"
             style={{ width: "50%" }}
           >
-            <Card className="rounded-xl overflow-hidden">
+            <Card className="rounded-xl overflow-hidden odoo-shadow-light odoo-card-border">
               <Card.Img variant="top" src={image03} alt="technology-person" />
               <Card.Body className="d-flex flex-row align-items-center col-gap-1">
                 <span
@@ -43,7 +43,7 @@ const CardThree = () => {
                 <AiOutlineHeart size={20} className="ml-auto text-muted" />
               </Card.Body>
             </Card>
-            <div className="d-flex col-gap-1 align-items-center bg-white shadow p-3 rounded-xl">
+            <div className="d-flex col-gap-1 align-items-center bg-white p-3 rounded-xl odoo-card-border">
               <span
                 className="d-flex justify-content-center align-items-center rounded-circle "
                 style={{
@@ -54,9 +54,9 @@ const CardThree = () => {
               >
                 <BsCheckLg size={19} color="white" />
               </span>
-              <div className="d-flex flex-column">
-                <span className="fs-5">300+ components</span>
-                <span className="text-muted">Built to be customized</span>
+              <div className="d-flex flex-column ">
+                <span className="fs-6">300+ components</span>
+                <span className="text-muted fs-7">Built to be customized</span>
               </div>
             </div>
           </div>
@@ -65,8 +65,8 @@ const CardThree = () => {
             style={{ width: "50%" }}
           >
             <div
-              className="d-flex flex-column col-gap-3 align-items-center p-5 bg-white shadow rounded-xl"
-              style={{ width: "100%" }}
+              className="d-flex flex-column col-gap-3 align-items-center  bg-white  rounded-xl odoo-shadow-light odoo-card-border"
+              style={{ width: "100%", padding: "2rem" }}
             >
               <Image src={airbnbImage} alt="airbnb" height="35px" />
               <div className="d-flex" style={{ gap: "0.3rem" }}>
@@ -80,11 +80,11 @@ const CardThree = () => {
               </div>
               <div className="d-flex flex-column align-items-center">
                 <span className="fs-5">4.95 out of 5 stars</span>
-                <span className="text-muted">from 23 reviews</span>
+                <span className="fs-6 text-muted">from 23 reviews</span>
               </div>
             </div>
             <div
-              className="d-flex flex-column align-items-center p-4 bg-white shadow rounded-xl"
+              className="d-flex flex-column align-items-center p-4 bg-white  rounded-xl odoo-shadow-light odoo-card-border"
               style={{ gap: "1.5rem" }}
             >
               <Image src={company01} height="60px" className="rounded-circle" />
@@ -106,7 +106,7 @@ const CardThree = () => {
                   className="rounded-circle person-icon"
                 />
               </div>
-              <div className="d-flex col-gap-2 p-4 gradient-border-top position-relative ">
+              <div className="d-flex col-gap-2 p-3 gradient-border-top position-relative ">
                 <FiPaperclip size={16} className="text-muted" />
                 <AiOutlineEye size={16} className="text-muted" />
                 <AiOutlineHeart size={16} className="text-muted" />
@@ -130,7 +130,7 @@ const CardThree = () => {
           >
             We use the latest technologies on the market
           </h2>
-          <p className="text-muted fs-4 line-height-paragraph">
+          <p className="text-muted fs-5 line-height-paragraph">
             Get components and examples, including tons of variables that will
             help you grow your business.
           </p>
