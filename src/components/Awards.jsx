@@ -24,39 +24,35 @@ const Awards = () => {
           </Button>
           <p>Awards for design, creativity, and innovation on the Internet</p>
         </div>
-      </Container>
-      {/* Cards list */}
 
-      <div
-        className="award-list d-flex col-gap-2"
-        style={{
-          overflow: "visible",
-          padding: "5rem 10rem",
-          overflow: "auto",
-        }}
-      >
-        {AWARDS.map(
-          ({
-            companyImage,
-            stars,
-            reviews,
-            isRating,
-            awardText,
-            redirectUrl,
-          }) => (
-            <AwardCard
-              key={companyImage}
-              image={companyImage}
-              stars={stars}
-              reviews={reviews}
-              isRating={isRating}
-              awardText={awardText}
-              redirectUrl={redirectUrl}
-            />
-          )
-        )}
-      </div>
-      {/* </div> */}
+        {/* Cards list */}
+        <div className="d-flex col-gap-2 award-list">
+          {AWARDS.map(
+            (
+              {
+                companyImage,
+                stars,
+                reviews,
+                isRating,
+                awardText,
+                redirectUrl,
+              },
+              i
+            ) => (
+              <AwardCard
+                key={companyImage}
+                image={companyImage}
+                stars={stars}
+                reviews={reviews}
+                isRating={isRating}
+                awardText={awardText}
+                redirectUrl={redirectUrl}
+                index={i}
+              />
+            )
+          )}
+        </div>
+      </Container>
     </section>
   );
 };

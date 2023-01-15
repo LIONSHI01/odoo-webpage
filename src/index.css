@@ -83,10 +83,6 @@ body {
   width: 85%;
 }
 
-.award-list:nth-child(odd) {
-  background-color: rebeccapurple;
-}
-
 /*SELF SET STYLES */
 .rounded-xl {
   border-radius: 0.8rem !important;
@@ -268,6 +264,41 @@ body {
   clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
 }
 
+/* Navbar */
 .nav-sticky {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Award Card styles */
+.move-up {
+  transform: translateY(-3rem);
+  transition: all 0.3s;
+}
+
+.move-up:hover {
+  transform: translateY(0);
+}
+
+.move-down {
+  transform: translateY(3rem);
+  transition: all 0.3s;
+}
+
+.move-down:hover {
+  transform: translateY(0);
+}
+
+.award-list {
+  padding: 7rem 0;
+  overflow: auto;
+  transition: all 0.5s;
+}
+
+.award-list::-webkit-scrollbar {
+  height: 10px;
+  background-color: transparent;
+}
+.award-list:hover::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #a1aec1ae;
 }

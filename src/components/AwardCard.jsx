@@ -10,13 +10,14 @@ const AwardCard = ({
   isRating,
   awardText,
   redirectUrl,
+  index,
 }) => {
   if (isRating) {
     return (
       <div
-        className="d-flex flex-column col-gap-3 align-items-center justify-content-center bg-white rounded-xl odoo-shadow-light
-odoo-card-border"
-        style={{ minWidth: "16rem", padding: "2rem" }}
+        className={`d-flex flex-column col-gap-3 align-items-center justify-content-center bg-white rounded-xl odoo-shadow-light
+odoo-card-border ${index % 2 === 0 ? "move-down" : "move-up"} `}
+        style={{ minWidth: "16rem", padding: "2rem", cursor: "pointer" }}
       >
         <Image src={image} alt="airbnb" height="40px" />
         <div className="d-flex" style={{ gap: "0.3rem" }}>
@@ -38,8 +39,10 @@ odoo-card-border"
 
   return (
     <div
-      className="d-flex flex-column col-gap-3 align-items-center bg-white rounded-xl odoo-shadow-light odoo-card-border"
-      style={{ minWidth: "16rem", padding: "2rem" }}
+      className={`d-flex flex-column col-gap-3 align-items-center bg-white rounded-xl odoo-shadow-light odoo-card-border ${
+        index % 2 === 0 ? "move-down" : "move-up"
+      } `}
+      style={{ minWidth: "16rem", padding: "2rem", cursor: "pointer" }}
     >
       <Image src={image} alt="airbnb" height="40px" />
 
